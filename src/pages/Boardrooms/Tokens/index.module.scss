@@ -1,0 +1,27 @@
+@import '../../../styles/config';
+
+.container {
+  max-width: 770px;
+}
+
+.row {
+  justify-content: center;
+}
+
+.col {
+  position: relative;
+}
+
+.tooltip {
+  @include size(23px);
+
+  position: absolute;
+  z-index: 1;
+  top: 30px;
+  right: 30px;
+}
+
+.button {
+  margin: 20px auto 0;
+  max-width: 200px;
+}

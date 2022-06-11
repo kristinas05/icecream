@@ -1,0 +1,18 @@
+@import '../../../styles/config';
+
+.row {
+  justify-content: center;
+}
+
+.col {
+  position: relative;
+}
+
+.tooltip {
+  @include size(23px);
+
+  position: absolute;
+  z-index: 1;
+  top: 30px;
+  right: 30px;
+}

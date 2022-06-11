@@ -1,0 +1,14 @@
+@import '../../../styles/config';
+
+.list {
+  margin: 0 auto;
+  max-width: 980px;
+}
+
+.item {
+  margin-bottom: 34px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
